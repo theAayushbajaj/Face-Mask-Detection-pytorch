@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Face Mask Detection</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}" />
+		<script src="{{ url_for('static',filename='stream.js') }}"></script>
+		<!-- Compiled and minified CSS -->
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static',filename='materialize.min.css') }}"
+		/>
+
+		<!-- Compiled and minified JavaScript -->
+		<script src="{{ url_for('static',filename='materialize.min.js') }}"></script>
+	</head>
+	<body>
+		<div class="contentarea container-fluid">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="camera">
+						<video id="video">Video stream not available.</video>
+						</br></br></br></br><button id="startbutton">EXTRACT FOREGROUND</button>
+					</div>
+					<canvas id="canvas"> </canvas>
+				</div>
+				<div class="col s12 m6">
+					<div class="output">
+						<img id="photo" alt="The screen capture will appear in this box." />
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="{{ url_for('static',filename='jquery.min.js') }}"></script>
+	</body>
+</html>

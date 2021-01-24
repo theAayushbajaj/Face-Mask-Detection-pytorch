@@ -1,0 +1,1 @@
+/usr/bin/c++   -D_GLIBCXX_USE_CXX11_ABI=0  -rdynamic CMakeFiles/Mask-Detection-pytorch.dir/inference.cpp.o  -o Mask-Detection-pytorch -Wl,-rpath,/source/libtorch/lib ../libtorch/lib/libtorch.so ../libtorch/lib/libc10.so ../libtorch/lib/libc10.so -lpthread -Wl,--no-as-needed,/source/libtorch/lib/libtorch.so -Wl,--as-needed 

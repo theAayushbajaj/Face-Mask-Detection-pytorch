@@ -1,0 +1,3 @@
+/source/build/CMakeFiles/rebuild_cache.dir
+/source/build/CMakeFiles/edit_cache.dir
+/source/build/CMakeFiles/Mask-Detection-pytorch.dir
